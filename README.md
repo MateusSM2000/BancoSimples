@@ -12,3 +12,5 @@ são arquivados no arquivo log.csv. O arquivo staff_user_client_side.py pode faz
 necessidade de fazer login.
 
 Mude o arquivo dotenv-example para .env e altere os valores para o programa conseguir enviar o e-mail automático.
+
+Possui um Dockerfile caso necessite. Basta apenas dar build nele.
