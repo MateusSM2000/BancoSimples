@@ -9,8 +9,9 @@ O projeto representa de uma maneira bem simplificada um sistema bancário, no qu
 com usuário e senha, fazer login e efetuar movimentações no saldo da conta ou alterar dados pessoais. Os dados bancários
 são armazenados localmente em um arquivo .json no diretório onde se encontra o projeto. Alterações dos dados bancários
 são arquivados no arquivo log.csv. O arquivo staff_user_client_side.py pode fazer alterações no arquivo .json sem a
-necessidade de fazer login.
+necessidade de fazer login, enquanto que o public_user_client_side.py necessita de login.
 
 Mude o arquivo dotenv-example para .env e altere os valores para o programa conseguir enviar o e-mail automático.
 
-Possui um Dockerfile caso necessite. Basta apenas dar build nele.
+Possui um Dockerfile caso necessite. Basta apenas dar build nele e rodar um dos dois programas dentro do terminal
+do container.
